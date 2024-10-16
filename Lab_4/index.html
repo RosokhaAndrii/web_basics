@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Lab_4</title>
+    </head>
+<h1> Моя перша HTML-сторінка</h1>
+<form action="https://httpbin.org/get" method="get">
+<label for="name">Ім'я</label>
+<input name="user`sname" class="test" id="name" type="text">
+<br><br>
+<label class="test" for="Birthday">День народження</label>
+<input type="date" name="birthday" placeholder="date" id="Birthday">
+  <br><br>
+ <label class="test" for="Email">Імейл</label>
+ <input type="Email" name="Email" id="Email">
+<br>
+<br>
+<label for="message" name="message" class="test"> Повідомлення</label>
+   <textarea id="message" name="message"></textarea>
+  <br>
+  <button type="submit"> Надіслати </button> <button type="reset"> Очистити </button>
+</form>
+<picture>
+  <source media="(max-width: 468px)" scrset="https://picsum.photos/200/300">
+  <img src="https://picsum.photos/300/245" alt="круте зображення">
+</picture>
+  <h3> Ваші улюблені напої? </h3>
+  <form action="https://httpbin.org/post" method="post">
+  <label> Кава <label> <input type="checkbox" name="drinks1">
+    <br>
+  <label> Капучино <label> <input type="checkbox" name="drinks2">
+    <br>
+  <label> Чай <label> <input type="checkbox" name="drinks3">
+  <br>
+  <label> Сік <label> <input type="checkbox" name="drinks4">
+   
+  <br>
+    <div>
+  <h3> Моя національність <h3> 
+  <label for="Uk "> Українець </label> <input type="radio" id="Uk" name="nationality">
+    <br>
+  <label for="Fr"> Француз </label> <input type="radio" id="Fr" name="nationality">
+    <br>
+  <label for="p"> Поляк </label> <input type="radio" id="P" name="nationality">
+    </div>
+    </form>
+    </html>
