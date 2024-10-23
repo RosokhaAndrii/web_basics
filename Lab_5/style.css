@@ -1,0 +1,77 @@
+/* 1. додайте клас до h1 і зробіть весь текст для класу заглавними літерами (text-transform: uppercase) */
+header {
+    text-transform: uppercase;
+    color:red;
+    box-sizing: border-box
+  }
+  /* 2. придумайте назву класа для списку цілей і встановіть колір шрифту червоним у шістнадцятковому форматі */
+  /* 3. пунктам списку цілей за класом дайте колір заднього фону yellow і нахилений шрифт (font-style: italic)*/
+  .goals{
+    color: #FF0000;
+    display: block;
+    font-style:italic;
+    box-sizing: border-box;
+  }
+  /* 4. для усіх впорядкованих списків задайте рамку 1px solid red */
+  ol{
+    border: 1px solid red;
+    box-sizing: border-box;
+  }
+  /* 5. задайте id (ідентифікатор) для заголовку першого рівня і встановіть на нього колір шрифта green */
+  #myheader{
+    color: green;
+    box-sizing: border-box
+  }
+  /* 6. для всіх посилань на PDF-документи втсановити стиль: колір зелений і font-style: italic */
+  .pdf {
+    color: green;
+    font-style: italic;
+    box-sizing: border-box
+  }
+  /* 7. для всіх посилань втсановити колір шрифта violet та заберыть підкреслення (text-decoration: none).
+     Питання: чому PDF-файли вже не підкреслені але все ж лишились зелені? */
+  a {
+    color: violet;
+    text-decoration: none;
+    box-sizing: border-box
+  }
+  /* 8. Встановіть всі заглавні літери (text-transform: uppercase) для усіх вкладнених списків другого рівня*/
+  .list2{
+    text-transform:uppercase;
+  box-sizing: border-box
+  }
+  /* 9. для всіх посилань що знаходяться всередині абзаців встановити колір шрифта magenta і задній фон кольору mistyrose */
+  .paragraph a{
+    color: magenta;
+    background-color: mistyrose;
+    box-sizing: border-box
+  }
+  /* 10. створити клас bold який буде будь-який текст перетворювати на жирний і застосувати його: 1) до двох останіх   пунктів цілей 2) до першого довгого абзацу (той що під основним заголовком).
+    Питання: чому у нас одночасно і bold i italic?
+  */
+  .bold {
+    font-weight: bold;
+    box-sizing: border-box
+  }
+  /* 11. для всіх тегів li з класом bold встановити всі заглавні літери */
+  li.bold{
+    text-transform: uppercase;
+    box-sizing: border-box
+  }
+  /* 12. другий довгий абзац і передостанній "Написати нам листа" вирійвняйте по правому краю, додайте синю рамку навколо та встановіть розмір шрифта 20px */
+  .paragraph {
+    text-align: right;
+    border: 3px solid blue;
+    padding: 10px;
+    font-size: 20px;
+    box-sizing: border-box
+  }
+  /* 13. на тег h1 встановіть колір шрифта червоний. Чому він не спрацює і що можна зробити щоб він спрацював?*/
+  /* 14. для всіх можливих селекторів встановіть властивість box-sizing: border-box (у DevTools перегляньте які CSS властивості у елементів активні і визначте чи успішно виконано завдання) */
+  /* 15. зробіть так, щоб задній фон цілей був не на всю ширину сторінки бо це блочці елементи, а лише по довжині кожного з елементів (відповідь: огорнути текст у рядкові span-и застосувати background до них) */
+  span {
+    background-color: yellow;
+    display: inline-block;
+    width: 100%;
+  }
+  
